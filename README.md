@@ -1,4 +1,4 @@
-# Algorithms Study Repository
+# Algorithms Practice Repository
 
 Learning in public — documenting progress one exercise at a time.
 
@@ -13,6 +13,7 @@ Learning in public — documenting progress one exercise at a time.
 This repository contains algorithm exercises developed during my programming studies.
 
 Exercises are added gradually as I progress through my learning path.
+Some exercises may be grouped in a single commit when completed in the same study session.
 
 ## ⏱️ Study Method
 
