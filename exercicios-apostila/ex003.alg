@@ -1,12 +1,12 @@
 algoritmo "ex003"
 var
-   nome_colab: caractere
-   sal_colab: real
+   emp_name: caractere
+   emp_sal: real
 inicio
       escreva("Nome do funcionário:")
-      leia(nome_colab)
+      leia(emp_name)
       escreva("Salário do funcionário: R$")
-      leia(sal_colab)
-      limpatela
-      escreva("O funcionário ",nome_colab," recebeu R$",sal_colab," esse mês.")
+      leia(emp_sal)
+      limpaTela
+      escreva("O funcionário ",emp_name," recebeu R$",emp_sal," esse mês.")
 fimalgoritmo
