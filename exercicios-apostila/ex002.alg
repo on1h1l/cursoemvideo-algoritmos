@@ -1,9 +1,9 @@
 algoritmo "ex002"
 var
-   nome: caractere
+   name: caractere
 inicio
       escreva("Digite seu nome:")
-      leia(nome)
-      limpatela
+      leia(name)
+      limpaTela
       escreva("Bem-vindo ",nome,"!")
 fimalgoritmo

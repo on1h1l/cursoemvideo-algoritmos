@@ -4,7 +4,7 @@ var
 inicio
       escreva("Digite um número inteiro:")
       leia(n)
-      limpatela
+      limpaTela
       escrevaL("O antecessor de",n," é",n-1)
       escreva("O sucessor de",n," é",n+1)
 fimalgoritmo
