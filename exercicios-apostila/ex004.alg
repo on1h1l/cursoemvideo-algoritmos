@@ -9,6 +9,6 @@ inicio
       
       total <- n1+n2
       
-      limpatela
-      escreva("A soma entre",n1," e",n2," é igual a",total)
-fimalgoritmo
+      limpaTela
+      escrevaL("A soma entre",n1," e",n2," é igual a",total)
+fimAlgoritmo

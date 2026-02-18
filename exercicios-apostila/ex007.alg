@@ -11,4 +11,4 @@ inicio
       limpaTela
       escrevaL("O dobro de",n," é igual a",double)
       escrevaL("A terça parte de",n," é igual a",one_third)
-fimalgoritmo
+fimAlgoritmo

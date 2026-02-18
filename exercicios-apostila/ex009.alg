@@ -8,5 +8,5 @@ inicio
       amount_usd <- amount_brl*0.20
       
       limpaTela
-      escreva("R$",amount_brl," -> U$",amount_usd)
-fimalgoritmo
+      escrevaL("R$",amount_brl," -> U$",amount_usd)
+fimAlgoritmo

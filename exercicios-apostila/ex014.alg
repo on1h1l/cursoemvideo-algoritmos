@@ -10,7 +10,6 @@ inicio
 
    cost_km <- km_driven*0.2
    cost_days <- rental_days*90
-
    total_price <- cost_km+cost_days
 
    limpaTela
@@ -19,5 +18,5 @@ inicio
    escrevaL("Total dos dias:", cost_days)
    escrevaL("Total dos quilômetros:", cost_km)
    escrevaL("Valor total:", total_price)
-fimalgoritmo
+fimAlgoritmo
 

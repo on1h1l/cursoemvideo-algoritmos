@@ -7,4 +7,4 @@ inicio
       
       limpaTela
       escrevaL("Seja bem-vindo ",name,"!")
-fimalgoritmo
+fimAlgoritmo

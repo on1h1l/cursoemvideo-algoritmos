@@ -10,4 +10,4 @@ inicio
       
       limpaTela
       escrevaL("O funcionário ",emp_name," recebeu R$",emp_sal," esse mês.")
-fimalgoritmo
+fimAlgoritmo

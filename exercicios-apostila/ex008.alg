@@ -21,4 +21,4 @@ inicio
            distances[i] <- meters*10^(i-4)
            escrevaL(distances[i],units[i])
       fimPara
-fimalgoritmo
+fimAlgoritmo

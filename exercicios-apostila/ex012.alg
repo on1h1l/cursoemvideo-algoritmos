@@ -9,5 +9,5 @@ inicio
       
       limpaTela
       escrevaL("Preço normal: R$",price)
-      escreva("Preço com desconto de 5%: R$",discount_price)
-fimalgoritmo
+      escrevaL("Preço com desconto de 5%: R$",discount_price)
+fimAlgoritmo

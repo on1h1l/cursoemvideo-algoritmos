@@ -15,4 +15,4 @@ inicio
    limpaTela
    escrevaL("Total de cigarros:", total_cigarettes)
    escrevaL("Dias de vida perdidos:", life_lost_days)
-fimalgoritmo
+fimAlgoritmo

@@ -13,4 +13,4 @@ inicio
       escrevaL("Cada litro de tinta pinta 2 metros quadrados. Sabendo disso:")
       escrevaL("Metro Quadrado:",area)
       escrevaL("Tinta necessária:",area/2," litros")
-fimalgoritmo
+fimAlgoritmo

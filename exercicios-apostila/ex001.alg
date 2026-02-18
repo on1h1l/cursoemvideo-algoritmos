@@ -3,4 +3,4 @@ var
 
 inicio
       escrevaL("Olá Mundo!")
-fimalgoritmo
+fimAlgoritmo

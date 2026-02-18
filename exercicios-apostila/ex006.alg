@@ -8,4 +8,4 @@ inicio
       limpaTela
       escrevaL("O antecessor de",n," é",n-1)
       escrevaL("O sucessor de",n," é",n+1)
-fimalgoritmo
+fimAlgoritmo

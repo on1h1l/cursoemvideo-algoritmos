@@ -11,4 +11,4 @@ inicio
       
       limpaTela
       escrevaL("A média entre",n1," e",n2," é igual a",avg)
-fimalgoritmo
+fimAlgoritmo

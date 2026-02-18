@@ -12,5 +12,5 @@ inicio
       limpaTela
       escrevaL("Dias trabalhados:",days_worked)
       escrevaL("Valor por dia:",daily_pay)
-      escreva("Salário do mês:",monthly_salary)
-fimalgoritmo
+      escrevaL("Salário do mês:",monthly_salary)
+fimAlgoritmo

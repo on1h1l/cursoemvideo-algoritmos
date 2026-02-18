@@ -10,4 +10,4 @@ inicio
       limpaTela
       escrevaL("Salário antigo: R$",emp_sal)
       escrevaL("Novo salário: R$",new_salary)
-fimalgoritmo
+fimAlgoritmo
