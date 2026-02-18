@@ -6,5 +6,5 @@ inicio
       leia(name)
       
       limpaTela
-      escrevaL("Bem-vindo ",name,"!")
+      escrevaL("Seja bem-vindo ",name,"!")
 fimalgoritmo
