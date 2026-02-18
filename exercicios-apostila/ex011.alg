@@ -13,5 +13,5 @@ inicio
       
       limpaTela
       escrevaL("A:",a,"  B:",b,"  C:",c)
-      escreva("Delta:",delta)
+      escreva("Valor de Delta:",delta)
 fimalgoritmo
