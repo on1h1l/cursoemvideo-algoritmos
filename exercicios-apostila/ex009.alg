@@ -4,7 +4,9 @@ var
 inicio
       escreva("Digite um valor em reais: R$")
       leia(amount_brl)
-      limpaTela
+      
       amount_usd <- amount_brl*0.20
+      
+      limpaTela
       escreva("R$",amount_brl," -> U$",amount_usd)
 fimalgoritmo

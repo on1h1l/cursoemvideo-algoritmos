@@ -7,6 +7,7 @@ inicio
       leia(emp_name)
       escreva("Salário do funcionário: R$")
       leia(emp_sal)
+      
       limpaTela
-      escreva("O funcionário ",emp_name," recebeu R$",emp_sal," esse mês.")
+      escrevaL("O funcionário ",emp_name," recebeu R$",emp_sal," esse mês.")
 fimalgoritmo

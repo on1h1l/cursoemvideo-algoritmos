@@ -8,8 +8,10 @@ inicio
       leia(b)
       escreva("Digite o valor de C:")
       leia(c)
-      limpaTela
+      
       delta <- (b)^2-4*a*c
+      
+      limpaTela
       escrevaL("A:",a,"  B:",b,"  C:",c)
       escreva("Delta:",delta)
 fimalgoritmo

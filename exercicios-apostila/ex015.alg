@@ -1,16 +1,16 @@
 algoritmo "ex015"
 var
-   dias_mes: inteiro
-   tot_dia, tot_mes: real
+   days_worked: inteiro
+   daily_pay, monthly_salary: real
 inicio
       escreva("Dias trabalhados:")
-      leia(dias_mes)
+      leia(days_worked)
       
-      tot_dia <- 8*25
-      tot_mes <- dias_mes*tot_dia
+      daily_pay <- 8*25
+      monthly_salary <- days_worked*daily_pay
       
       limpaTela
-      escrevaL("Dias trabalhados:",dias_mes)
-      escrevaL("Valor por dia:",tot_dia)
-      escreva("Salário do mês:",tot_mes)
+      escrevaL("Dias trabalhados:",days_worked)
+      escrevaL("Valor por dia:",daily_pay)
+      escreva("Salário do mês:",monthly_salary)
 fimalgoritmo

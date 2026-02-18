@@ -4,6 +4,7 @@ var
 inicio
       escreva("Digite seu nome:")
       leia(name)
+      
       limpaTela
-      escreva("Bem-vindo ",nome,"!")
+      escrevaL("Bem-vindo ",name,"!")
 fimalgoritmo
