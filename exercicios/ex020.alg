@@ -6,7 +6,7 @@ inicio
       leia(n)
       
       limpaTela
-      se (n%2=0) entao
+      se (n%2 = 0) entao
          escrevaL(n," é par")
       senao
            escrevaL(n," é ímpar")

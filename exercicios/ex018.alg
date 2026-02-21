@@ -1,17 +1,17 @@
 algoritmo "ex018"
 var
-   ano_atual, ano_nasc, idade: inteiro
+   current_year, birth_year, age: inteiro
 inicio
       escreva("Ano atual:")
-      leia(ano_atual)
+      leia(current_year)
       escreva("Ano de nascimento:")
-      leia(ano_nasc)
+      leia(birth_year)
       
-      idade <- ano_atual-ano_nasc
+      age <- current_year-birth_year
       
       limpaTela
-      escrevaL("Idade:",idade)
-      se (idade < 16) entao
+      escrevaL("Idade:",age)
+      se (age < 16) entao
          escrevaL("Não pode votar")
       senao
            escrevaL("Pode votar")
