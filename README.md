@@ -15,6 +15,8 @@ This repository contains algorithm exercises developed during my programming stu
 Exercises are added gradually as I progress through my learning path.
 Some exercises may be grouped in a single commit when completed in the same study session.
 
+Files with the `-ref` suffix in the `aulas` folder correspond to the original versions provided by the course and are kept solely as references for behavior comparison.
+
 ## ⏱️ Study Method
 
 - short focused study sessions
