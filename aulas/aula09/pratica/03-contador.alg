@@ -1,20 +1,22 @@
 algoritmo "contador"
 var
-   cont, salto, i: inteiro
+   target_value, step, current_value: inteiro
 inicio
+      current_value <- 1
+      
       escreva("Quer contar até quanto?")
-      leia(cont)
+      leia(target_value)
       escreva("Qual o valor do salto?")
-      leia(salto)
+      leia(step)
       
       limpaTela
-      escrevaL(i)
-      enquanto (i <> cont) faca
-               se (i < cont) entao
-                  i <- i+salto
+      escrevaL(current_value)
+      enquanto (current_value <> target_value) faca
+               se (current_value < target_value) entao
+                  current_value <- current_value+step
                senao
-                    i <- i-salto
+                    current_value <- current_value-step
                fimSe
-               escrevaL(i)
+               escrevaL(current_value)
       fimEnquanto
 fimAlgoritmo

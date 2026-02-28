@@ -1,20 +1,21 @@
 algoritmo "maior"
 var
-   i: inteiro
-   tot, n, maior: real
+   counter: inteiro
+   total, number, highest_value: real
 inicio
-      i <- 1
-      enquanto (i <= 5) faca
-               escreva("Digite o",i,"o valor:")
-               leia(n)
-               se (n > maior) entao
-                  maior <- n
+      counter <- 1
+      
+      enquanto (counter <= 5) faca
+               escreva("Digite o",counter,"o valor:")
+               leia(number)
+               se (number > highest_value) entao
+                  highest_value <- number
                fimSe
-               tot <- tot+n
-               i <- i+1
+               total <- total+number
+               counter <- counter+1
       fimEnquanto
       
       limpaTela
-      escrevaL("Soma dos valores:",tot)
-      escrevaL("Maior número digitado:",maior)
+      escrevaL("Soma dos valores:",total)
+      escrevaL("Maior número digitado:",highest_value)
 fimAlgoritmo

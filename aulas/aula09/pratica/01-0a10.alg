@@ -1,9 +1,11 @@
 algoritmo "0a10"
 var
-   i: inteiro
+   counter: inteiro
 inicio
-      enquanto (i <= 10) faca
-               escrevaL(i)
-               i <- i+1
+      counter <- 0
+      
+      enquanto (counter <= 10) faca
+               escrevaL(counter)
+               counter <- counter+1
       fimEnquanto
 fimAlgoritmo

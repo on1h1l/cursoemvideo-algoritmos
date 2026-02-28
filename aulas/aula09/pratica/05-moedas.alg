@@ -1,20 +1,22 @@
 algoritmo "moedas"
 var
-   i, vezes: inteiro
-   brl, usd: real
+   counter, iterations: inteiro
+   amount_brl, amount_usd: real
 inicio
+      counter <- 0
+
       escreva("Quantas vezes você quer converter?:")
-      leia(vezes)
+      leia(iterations)
       
       limpaTela
-      enquanto (i < vezes) faca
+      enquanto (counter < iterations) faca
                escreva("Digite o valor: R$")
-               leia(brl)
+               leia(amount_brl)
                
-               usd <- brl*0.2
+               amount_usd <- amount_brl*0.2
                
-               escrevaL("Valor em doláres: U$",usd)
+               escrevaL("Valor em doláres: U$",amount_usd)
                
-               i <- i+1
+               counter <- counter+1
       fimEnquanto
 fimAlgoritmo
