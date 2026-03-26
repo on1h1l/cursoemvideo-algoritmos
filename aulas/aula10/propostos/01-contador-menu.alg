@@ -3,13 +3,13 @@ var
    menu_option, counter: inteiro
 inicio
       repita
-            escrevaL("[1] 1 até 10")
-            escrevaL("[2] 10 até 1")
-            escrevaL("[3] Sair")
+            escreval("[1] 1 até 10")
+            escreval("[2] 10 até 1")
+            escreval("[3] Sair")
             escreva("Digite a opção: ")
             leia(menu_option)
             
-            limpaTela
+            limpatela
             
             escolha menu_option
                     caso 1
@@ -25,11 +25,11 @@ inicio
                                counter <- counter-1
                          ate(counter < 1)
                     caso 3
-                         escrevaL("Saindo...")
-                    outroCaso
-            fimEscolha
+                         escreval("Saindo...")
+                    outrocaso
+            fimescolha
             
-            escrevaL()
-            escrevaL()
+            escreval()
+            escreval()
       ate (menu_option=3)
-fimAlgoritmo
+fimalgoritmo

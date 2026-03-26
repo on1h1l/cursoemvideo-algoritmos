@@ -9,11 +9,11 @@ inicio
       
       age <- current_year-birth_year
       
-      limpaTela
-      escrevaL("Idade:",age)
+      limpatela
+      escreval("Idade:",age)
       se (age >= 18) entao
-         escrevaL("Atingiu a maioridade")
+         escreval("Atingiu a maioridade")
       senao
-           escrevaL("Não atingiu a maioridade")
-      fimSe
-fimAlgoritmo
+           escreval("Não atingiu a maioridade")
+      fimse
+fimalgoritmo

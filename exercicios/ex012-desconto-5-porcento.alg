@@ -7,7 +7,7 @@ inicio
       
       discount_price <- price*0.95
       
-      limpaTela
-      escrevaL("Preço normal: R$",price)
-      escrevaL("Preço com desconto de 5%: R$",discount_price)
-fimAlgoritmo
+      limpatela
+      escreval("Preço normal: R$",price)
+      escreval("Preço com desconto de 5%: R$",discount_price)
+fimalgoritmo

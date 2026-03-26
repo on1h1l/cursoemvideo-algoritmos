@@ -9,15 +9,15 @@ inicio
       
       area <- width*height
       
-      limpaTela
-      escrevaL("Metros quadrados:",area,"m")
+      limpatela
+      escreval("Metros quadrados:",area,"m")
       se (area < 100) entao
-         escrevaL("TERRENO POPULAR")
+         escreval("TERRENO POPULAR")
       senao
            se (area <= 500) entao
-              escrevaL("TERRENO MASTER")
+              escreval("TERRENO MASTER")
            senao
-                escrevaL("TERRENO VIP")
-           fimSe
-      fimSe
-fimAlgoritmo
+                escreval("TERRENO VIP")
+           fimse
+      fimse
+fimalgoritmo

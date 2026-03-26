@@ -1,6 +1,6 @@
 algoritmo "fibonacci"
 var
-  counter, a, b, c: Inteiro
+  counter, a, b, c: inteiro
 inicio
       a <- 0
       b <- 1
@@ -8,12 +8,12 @@ inicio
       escreva("Quantos números:")
       leia(counter)
       
-      limpaTela
+      limpatela
       escreva(a, " ", b, " ")
       para counter <- counter ate 3 passo -1 faca
            c <- a+b
            escreva(c, " ")
            a <- b
            b <- c
-      fimPara
+      fimpara
 fimalgoritmo

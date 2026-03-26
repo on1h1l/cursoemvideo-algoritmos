@@ -9,23 +9,23 @@ inicio
       
       goal_difference <- abs(team1_goals-team2_goals)
       
-      limpaTela
-      escrevaL("Time 1  ",team1_goals," x",team2_goals,"   Time 2")
-      escrevaL()
+      limpatela
+      escreval("Time 1  ",team1_goals," x",team2_goals,"   Time 2")
+      escreval()
       escreva("Diferença de gols:",goal_difference," - ")
       escolha (goal_difference)
               caso 0
-                   escrevaL("Empate")
+                   escreval("Empate")
               caso 1, 2, 3
-                   escrevaL("Partida Normal")
+                   escreval("Partida Normal")
               caso 4, 5, 6, 7
-                   escrevaL("Goleada")
-              outroCaso
-                       escrevaL("Algo incomum")
-      fimEscolha
+                   escreval("Goleada")
+              outrocaso
+                       escreval("Algo incomum")
+      fimescolha
       se (team1_goals>team2_goals) entao
-         escrevaL("Time 1 venceu")
+         escreval("Time 1 venceu")
       senao
-           escrevaL("Time 2 venceu")
-      fimSe
-fimAlgoritmo
+           escreval("Time 2 venceu")
+      fimse
+fimalgoritmo

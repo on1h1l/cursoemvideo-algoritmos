@@ -9,11 +9,11 @@ inicio
       
       age <- current_year-birth_year
       
-      limpaTela
-      escrevaL("Idade:",age)
+      limpatela
+      escreval("Idade:",age)
       se (age < 18) entao
-         escrevaL("Faltam",18-age," anos para se alistar")
+         escreval("Faltam",18-age," anos para se alistar")
       senao
-           escrevaL("Poderia se alistar há",age-18," anos")
-      fimSe
-fimAlgoritmo
+           escreval("Poderia se alistar há",age-18," anos")
+      fimse
+fimalgoritmo

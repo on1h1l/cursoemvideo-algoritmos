@@ -12,7 +12,7 @@ inicio
    minutes_lost <- total_cigarettes*10
    life_lost_days <- int(minutes_lost/1440)
 
-   limpaTela
-   escrevaL("Total de cigarros:", total_cigarettes)
-   escrevaL("Dias de vida perdidos:", life_lost_days)
-fimAlgoritmo
+   limpatela
+   escreval("Total de cigarros:", total_cigarettes)
+   escreval("Dias de vida perdidos:", life_lost_days)
+fimalgoritmo

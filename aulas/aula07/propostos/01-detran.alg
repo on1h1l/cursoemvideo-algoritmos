@@ -9,11 +9,11 @@ inicio
       
       age <- current_year-birth_year
       
-      limpaTela
-      escrevaL("Idade:",age)
+      limpatela
+      escreval("Idade:",age)
       se (age >= 18) entao
-         escrevaL("Apto a tirar habilitação")
+         escreval("Apto a tirar habilitação")
       senao
-           escrevaL("Inapto a tirar habilitação")
-      fimSe
-fimAlgoritmo
+           escreval("Inapto a tirar habilitação")
+      fimse
+fimalgoritmo

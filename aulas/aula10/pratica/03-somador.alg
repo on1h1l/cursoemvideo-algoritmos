@@ -10,5 +10,5 @@ inicio
             escreva("Deseja continuar? [S/N]:")
             leia(option)
       ate ((option = "N") ou (option = "n"))
-      escrevaL("Total:",total)
-fimAlgoritmo
+      escreval("Total:",total)
+fimalgoritmo

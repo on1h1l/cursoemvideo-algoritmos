@@ -9,35 +9,35 @@ inicio
       
       bmi <- weight/(height^2)
       
-      limpaTela
-      escrevaL("IMC:",bmi:5:2)
+      limpatela
+      escreval("IMC:",bmi:5:2)
       se (bmi >= 40) entao
-         escrevaL("Obesidade (Grau III)")
+         escreval("Obesidade (Grau III)")
       senao
            se (bmi >= 35) entao
-              escrevaL("Obesidade (Grau II)")
+              escreval("Obesidade (Grau II)")
            senao
                 se (bmi >= 30) entao
-                   escrevaL("Obesidade (Grau I)")
+                   escreval("Obesidade (Grau I)")
                 senao
                      se (bmi >= 25) entao
-                        escrevaL("Sobrepeso")
+                        escreval("Sobrepeso")
                      senao
                           se (bmi >= 18.5) entao
-                             escrevaL("Peso adequado")
+                             escreval("Peso adequado")
                           senao
                                se (bmi >= 17) entao
-                                  escrevaL("Baixo peso (Grau I)")
+                                  escreval("Baixo peso (Grau I)")
                                senao
                                     se (bmi >= 16) entao
-                                       escrevaL("Baixo peso (Grau II)")
+                                       escreval("Baixo peso (Grau II)")
                                     senao
-                                         escrevaL("Baixo peso (Grau III)")
-                                    fimSe
-                               fimSe
-                          fimSe
-                     fimSe
-                fimSe
-           fimSe
-      fimSe
-fimAlgoritmo
+                                         escreval("Baixo peso (Grau III)")
+                                    fimse
+                               fimse
+                          fimse
+                     fimse
+                fimse
+           fimse
+      fimse
+fimalgoritmo

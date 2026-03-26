@@ -9,8 +9,8 @@ inicio
       daily_pay <- 8*25
       monthly_salary <- days_worked*daily_pay
       
-      limpaTela
-      escrevaL("Dias trabalhados:",days_worked)
-      escrevaL("Valor por dia:",daily_pay)
-      escrevaL("Salário do mês:",monthly_salary)
-fimAlgoritmo
+      limpatela
+      escreval("Dias trabalhados:",days_worked)
+      escreval("Valor por dia:",daily_pay)
+      escreval("Salário do mês:",monthly_salary)
+fimalgoritmo

@@ -1,7 +1,7 @@
 algoritmo "contador"
 var
-   option: Caractere
-   number, total: Inteiro
+   option: caractere
+   number, total: inteiro
 inicio
       repita
             escreva("Digite um número:")
@@ -12,6 +12,6 @@ inicio
             total <- total+number
       ate ((option="N") ou (option="n"))
       
-      limpaTela
-      escrevaL("A soma dos valores é",total)
-fimAlgoritmo
+      limpatela
+      escreval("A soma dos valores é",total)
+fimalgoritmo

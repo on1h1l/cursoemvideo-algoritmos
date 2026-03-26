@@ -1,10 +1,10 @@
 algoritmo "combinacoes"
 var
-   c1, c2: Inteiro
+   c1, c2: inteiro
 inicio
       para c1 <- 1 ate 3 faca
            para c2 <- 1 ate 3 faca
-                escrevaL(c1, c2)
-           fimPara
-      fimPara
-fimAlgoritmo
+                escreval(c1, c2)
+           fimpara
+      fimpara
+fimalgoritmo

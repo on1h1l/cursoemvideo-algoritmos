@@ -16,9 +16,9 @@ inicio
       units[6] <- "cm"
       units[7] <- "mm"
       
-      limpaTela
+      limpatela
       para i de 1 ate 7 faca
            distances[i] <- meters*10^(i-4)
-           escrevaL(distances[i],units[i])
-      fimPara
-fimAlgoritmo
+           escreval(distances[i],units[i])
+      fimpara
+fimalgoritmo

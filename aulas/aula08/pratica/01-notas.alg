@@ -9,15 +9,15 @@ inicio
 
       avg_grade <- (grade1+grade2)/2
 
-      limpaTela
-      escrevaL("Média:",avg_grade)
+      limpatela
+      escreval("Média:",avg_grade)
       se (avg_grade >= 7) entao
-         escrevaL("Aluno aprovado")
+         escreval("Aluno aprovado")
       senao
            se (avg_grade >= 5) entao
-              escrevaL("Aluno em recuperação")
+              escreval("Aluno em recuperação")
            senao
-                escrevaL("Aluno reprovado")
-           fimSe
-      fimSe
-fimAlgoritmo
+                escreval("Aluno reprovado")
+           fimse
+      fimse
+fimalgoritmo

@@ -11,7 +11,7 @@ inicio
       
       delta <- (b)^2-4*a*c
       
-      limpaTela
-      escrevaL("A:",a,"  B:",b,"  C:",c)
-      escrevaL("Valor de Delta:",delta)
-fimAlgoritmo
+      limpatela
+      escreval("A:",a,"  B:",b,"  C:",c)
+      escreval("Valor de Delta:",delta)
+fimalgoritmo

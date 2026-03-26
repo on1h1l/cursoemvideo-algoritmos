@@ -10,21 +10,21 @@ inicio
       escreva("Quantidade de estudantes:")
       leia(total_students)
       
-      limpaTela
+      limpatela
       enquanto (counter <= total_students) faca
                escreva("Qual o nome do",counter,"o aluno?:")
                leia(student_name)
                escreva("Nota de ",student_name,":")
                leia(grade)
                
-               limpaTela
+               limpatela
                se (grade > highest_grade) entao
                   highest_grade <- grade
                   top_student <- student_name
-               fimSe
+               fimse
                
                counter <- counter+1
-      fimEnquanto
-      escrevaL("Melhor aluno:",top_student)
-      escrevaL("Melhor nota:",highest_grade)
-fimAlgoritmo
+      fimenquanto
+      escreval("Melhor aluno:",top_student)
+      escreval("Melhor nota:",highest_grade)
+fimalgoritmo

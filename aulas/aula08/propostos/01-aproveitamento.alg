@@ -10,7 +10,7 @@ inicio
       
       avg_grade <- (grade1+grade2)/2
       
-      limpaTela
+      limpatela
       se (avg_grade >= 9) entao
          letter_grade <- "A"
       senao
@@ -27,11 +27,11 @@ inicio
                              letter_grade <- "E"
                           senao
                                letter_grade <- "F"
-                          fimSe
-                     fimSe
-                fimSe
-           fimSe
-      fimSe
-      escrevaL("Média:",avg_grade)
-      escrevaL("Aproveitamento: ",letter_grade)
-fimAlgoritmo
+                          fimse
+                     fimse
+                fimse
+           fimse
+      fimse
+      escreval("Média:",avg_grade)
+      escreval("Aproveitamento: ",letter_grade)
+fimalgoritmo

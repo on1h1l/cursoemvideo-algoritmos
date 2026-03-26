@@ -5,7 +5,7 @@ inicio
       counter <- 0
       
       enquanto (counter <= 10) faca
-               escrevaL(counter)
+               escreval(counter)
                counter <- counter+1
-      fimEnquanto
-fimAlgoritmo
+      fimenquanto
+fimalgoritmo

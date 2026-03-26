@@ -1,15 +1,15 @@
 algoritmo "valores_pares"
 var
-  counter, value: Inteiro
+  counter, value: inteiro
 inicio
    escreva("Digite um valor: ")
    leia(value)
    
    se (value%2=1) entao
       value <- value-1
-   fimSe
+   fimse
    
    para counter <- value ate 0 passo -2 faca
       escreva(counter," ")
-   fimPara
-fimAlgoritmo
+   fimpara
+fimalgoritmo

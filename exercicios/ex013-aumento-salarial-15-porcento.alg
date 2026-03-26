@@ -7,7 +7,7 @@ inicio
       
       new_salary <- emp_sal*1.15
       
-      limpaTela
-      escrevaL("Salário antigo: R$",emp_sal)
-      escrevaL("Novo salário: R$",new_salary)
-fimAlgoritmo
+      limpatela
+      escreval("Salário antigo: R$",emp_sal)
+      escreval("Novo salário: R$",new_salary)
+fimalgoritmo

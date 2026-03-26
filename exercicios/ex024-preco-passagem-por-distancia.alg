@@ -5,13 +5,13 @@ inicio
       escreva("Digite a distância (km):")
       leia(distance)
       
-      limpaTela
+      limpatela
       se (distance <= 200) entao
          price <- 200*0.5
       senao
            price <- 200*0.45
-      fimSe
+      fimse
       
-      escrevaL("Distância percorrida:",distance,"km")
-      escrevaL("Preço da passagem: R$",price:5:2)
-fimAlgoritmo
+      escreval("Distância percorrida:",distance,"km")
+      escreval("Preço da passagem: R$",price:5:2)
+fimalgoritmo

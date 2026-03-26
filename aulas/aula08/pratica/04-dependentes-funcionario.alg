@@ -8,7 +8,7 @@ inicio
       escreva("Número de dependentes:")
       leia(dependents)
       
-      limpaTela
+      limpatela
       se (dependents < 1) entao
          new_salary <- salary*1.05
       senao
@@ -19,8 +19,8 @@ inicio
                    new_salary <- salary*1.15
                 senao
                      new_salary <- salary*1.18
-                fimSe
-           fimSe
-      fimSe
-      escrevaL("Novo salário: R$",new_salary:5:2)
-fimAlgoritmo
+                fimse
+           fimse
+      fimse
+      escreval("Novo salário: R$",new_salary:5:2)
+fimalgoritmo

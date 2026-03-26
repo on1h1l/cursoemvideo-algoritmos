@@ -10,12 +10,12 @@ inicio
                leia(number)
                se (number > highest_value) entao
                   highest_value <- number
-               fimSe
+               fimse
                total <- total+number
                counter <- counter+1
-      fimEnquanto
+      fimenquanto
       
-      limpaTela
-      escrevaL("Soma dos valores:",total)
-      escrevaL("Maior número digitado:",highest_value)
-fimAlgoritmo
+      limpatela
+      escreval("Soma dos valores:",total)
+      escreval("Maior número digitado:",highest_value)
+fimalgoritmo

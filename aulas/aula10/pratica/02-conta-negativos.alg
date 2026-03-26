@@ -10,10 +10,10 @@ inicio
             leia(number)
             se (number < 0) entao
                negative_count <- negative_count+1
-            fimSe
+            fimse
             counter <- counter+1
       ate (counter>5)
       
-      limpaTela
-      escrevaL("Total de negativos:",negative_count)
-fimAlgoritmo
+      limpatela
+      escreval("Total de negativos:",negative_count)
+fimalgoritmo

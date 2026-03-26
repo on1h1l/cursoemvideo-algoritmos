@@ -5,7 +5,7 @@ inicio
       escreva("Digite um número inteiro:")
       leia(n)
       
-      limpaTela
-      escrevaL("O antecessor de",n," é",n-1)
-      escrevaL("O sucessor de",n," é",n+1)
-fimAlgoritmo
+      limpatela
+      escreval("O antecessor de",n," é",n-1)
+      escreval("O sucessor de",n," é",n+1)
+fimalgoritmo

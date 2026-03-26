@@ -9,11 +9,11 @@ inicio
       
       avg_grade <- (grade1+grade2)/2
       
-      limpaTela
-      escrevaL("Média:",avg_grade)
+      limpatela
+      escreval("Média:",avg_grade)
       se (avg_grade >= 7) entao
-         escrevaL("Teve um bom aproveitamento")
+         escreval("Teve um bom aproveitamento")
       senao
-           escrevaL("Não teve um bom aproveitamento")
-      fimSe
-fimAlgoritmo
+           escreval("Não teve um bom aproveitamento")
+      fimse
+fimalgoritmo

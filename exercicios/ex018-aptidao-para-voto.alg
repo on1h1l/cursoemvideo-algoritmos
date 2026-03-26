@@ -9,11 +9,11 @@ inicio
       
       age <- current_year-birth_year
       
-      limpaTela
-      escrevaL("Idade:",age)
+      limpatela
+      escreval("Idade:",age)
       se (age < 16) entao
-         escrevaL("Não pode votar")
+         escreval("Não pode votar")
       senao
-           escrevaL("Pode votar")
-      fimSe
-fimAlgoritmo
+           escreval("Pode votar")
+      fimse
+fimalgoritmo

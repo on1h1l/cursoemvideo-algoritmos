@@ -9,14 +9,14 @@ inicio
       escreva("Qual o valor do salto?")
       leia(step)
       
-      limpaTela
-      escrevaL(current_value)
+      limpatela
+      escreval(current_value)
       enquanto (current_value <> target_value) faca
                se (current_value < target_value) entao
                   current_value <- current_value+step
                senao
                     current_value <- current_value-step
-               fimSe
-               escrevaL(current_value)
-      fimEnquanto
-fimAlgoritmo
+               fimse
+               escreval(current_value)
+      fimenquanto
+fimalgoritmo

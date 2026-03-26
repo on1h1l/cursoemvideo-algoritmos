@@ -13,12 +13,12 @@ inicio
                      escreva(counter," x")
                      senao
                           escreva(counter, " =")
-                  fimSe
+                  fimse
                   factorial <- factorial*counter
                   counter <- counter-1
             ate (counter = 0)
-            escrevaL(factorial)
+            escreval(factorial)
             escreva("Deseja continuar? [S/N]:")
             leia(option)
       ate ((option = "N") ou (option = "n"))
-fimAlgoritmo
+fimalgoritmo

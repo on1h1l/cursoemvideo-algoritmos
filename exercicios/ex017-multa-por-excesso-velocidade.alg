@@ -5,12 +5,12 @@ inicio
       escreva("Digite a velocidade do carro:")
       leia(speed)
       
-      limpaTela
+      limpatela
       se (speed <= 80) entao
-         escrevaL("Dentro do limite de velocidade")
+         escreval("Dentro do limite de velocidade")
       senao
            fine <- (speed-80)*5
-           escrevaL("Ultrapassou o limite de velocidade")
-           escrevaL("Valor da multa: R$",fine)
-      fimSe
-fimAlgoritmo
+           escreval("Ultrapassou o limite de velocidade")
+           escreval("Valor da multa: R$",fine)
+      fimse
+fimalgoritmo

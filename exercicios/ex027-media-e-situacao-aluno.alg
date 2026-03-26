@@ -9,15 +9,15 @@ inicio
       
       avg <- (grade1+grade2)/2
       
-      limpaTela
-      escrevaL("Média: ",avg:3:2)
+      limpatela
+      escreval("Média: ",avg:3:2)
       se (avg >= 7) entao
-         escrevaL("Aprovado")
+         escreval("Aprovado")
       senao
            se (avg >= 5) entao
-              escrevaL("Recuperação")
+              escreval("Recuperação")
            senao
-                escrevaL("Reprovado")
-           fimSe
-      fimSe
-fimAlgoritmo
+                escreval("Reprovado")
+           fimse
+      fimse
+fimalgoritmo

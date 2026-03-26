@@ -9,6 +9,6 @@ inicio
       
       avg <- (n1+n2)/2
       
-      limpaTela
-      escrevaL("A média entre",n1," e",n2," é igual a",avg)
-fimAlgoritmo
+      limpatela
+      escreval("A média entre",n1," e",n2," é igual a",avg)
+fimalgoritmo

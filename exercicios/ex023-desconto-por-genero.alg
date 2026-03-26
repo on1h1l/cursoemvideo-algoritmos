@@ -8,16 +8,16 @@ inicio
       escreva("Valor da compra: R$")
       leia(value)
       
-      limpaTela
+      limpatela
       se ((gender = "H") ou (gender = "h")) entao
          new_value <- value*0.95
       senao
            se ((gender = "M") ou (gender = "m")) entao
               new_value <- value*0.87
            senao
-                escrevaL("Insira caracteres válidos")
-           fimSe
-      fimSe
+                escreval("Insira caracteres válidos")
+           fimse
+      fimse
       
-      escrevaL("Valor com desconto: R$",new_value:5:2)
-fimAlgoritmo
+      escreval("Valor com desconto: R$",new_value:5:2)
+fimalgoritmo

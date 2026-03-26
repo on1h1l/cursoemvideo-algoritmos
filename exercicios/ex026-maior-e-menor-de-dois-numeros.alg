@@ -14,17 +14,17 @@ inicio
       para index de 1 ate 2 faca
            se (numbers[index] > numbers[greater]) entao
               greater <- index
-           fimSe
+           fimse
            se (numbers[index] < numbers[lower]) entao
               lower <- index
-           fimSe
-      fimPara
+           fimse
+      fimpara
       
-      escrevaL()
+      escreval()
       se (numbers[1] = numbers[2]) entao
-         escrevaL("Os dois números são iguais")
+         escreval("Os dois números são iguais")
       senao
-           escrevaL("O",greater,"o número é o maior")
-           escrevaL("O",lower,"o número é o menor")
-      fimSe
-fimAlgoritmo
+           escreval("O",greater,"o número é o maior")
+           escreval("O",lower,"o número é o menor")
+      fimse
+fimalgoritmo

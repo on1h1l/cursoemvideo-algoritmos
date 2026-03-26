@@ -1,14 +1,14 @@
 algoritmo "detector_pesado"
 var
-   name, name_heavier: Caractere
-   counter: Inteiro
-   weight, heavier: Real
+   name, name_heavier: caractere
+   counter: inteiro
+   weight, heavier: real
 procedimento top()
 inicio
-      limpaTela
-      escrevaL("Maior peso até agora:",heavier,"kg")
-      escrevaL()
-fimProcedimento
+      limpatela
+      escreval("Maior peso até agora:",heavier,"kg")
+      escreval()
+fimprocedimento
 
 inicio
       weight <- 0
@@ -25,9 +25,9 @@ inicio
            se (weight > heavier) entao
               heavier <- weight
               name_heavier <- name
-           fimSe
+           fimse
            
            top()
-      fimPara
-      escrevaL("Mais pesado: ",name_heavier)
-fimAlgoritmo
+      fimpara
+      escreval("Mais pesado: ",name_heavier)
+fimalgoritmo

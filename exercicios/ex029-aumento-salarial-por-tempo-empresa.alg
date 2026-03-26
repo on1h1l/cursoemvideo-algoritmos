@@ -15,12 +15,12 @@ inicio
               new_salary <- salary*1.125
            senao
                 new_salary <- salary*1.2
-           fimSe
-      fimSe
+           fimse
+      fimse
       
-      limpaTela
-      escrevaL("Anos na empresa:",years)
-      escrevaL("Aumento de",((new_salary/salary-1)*100),"%")
-      escrevaL("Salário antigo: R$",salary:5:2)
-      escrevaL("Novo salário: R$",new_salary:5:2)
-fimAlgoritmo
+      limpatela
+      escreval("Anos na empresa:",years)
+      escreval("Aumento de",((new_salary/salary-1)*100),"%")
+      escreval("Salário antigo: R$",salary:5:2)
+      escreval("Novo salário: R$",new_salary:5:2)
+fimalgoritmo

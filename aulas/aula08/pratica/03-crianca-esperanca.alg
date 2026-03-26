@@ -3,15 +3,15 @@ var
    menu_option: inteiro
    donation: real
 inicio
-      escrevaL("[1] Doar R$10,00")
-      escrevaL("[2] Doar R$25,00")
-      escrevaL("[3] Doar R$50,00")
-      escrevaL("[4] Doar outro valor")
-      escrevaL("[5] Cancelar")
+      escreval("[1] Doar R$10,00")
+      escreval("[2] Doar R$25,00")
+      escreval("[3] Doar R$50,00")
+      escreval("[4] Doar outro valor")
+      escreval("[5] Cancelar")
       escreva("Digite a opção:")
       leia(menu_option)
       
-      limpaTela
+      limpatela
       escolha (menu_option)
               caso 1
                    donation <- 10
@@ -23,11 +23,11 @@ inicio
                    escreva("Digite o valor:")
                    leia(donation)
               caso 5
-                   escrevaL("Doação cancelada")
-              outroCaso
-                       escrevaL("Digite um número válido")
-      fimEscolha
+                   escreval("Doação cancelada")
+              outrocaso
+                       escreval("Digite um número válido")
+      fimescolha
       se (donation > 0) entao
-         escrevaL("Você doou R$",donation:5:2,". Muito obrigado!")
-      fimSe
-fimAlgoritmo
+         escreval("Você doou R$",donation:5:2,". Muito obrigado!")
+      fimse
+fimalgoritmo

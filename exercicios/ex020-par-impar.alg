@@ -5,10 +5,10 @@ inicio
       escreva("Digite um número:")
       leia(n)
       
-      limpaTela
+      limpatela
       se (n%2 = 0) entao
-         escrevaL(n," é par")
+         escreval(n," é par")
       senao
-           escrevaL(n," é ímpar")
-      fimSe
-fimAlgoritmo
+           escreval(n," é ímpar")
+      fimse
+fimalgoritmo

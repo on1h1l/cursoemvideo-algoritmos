@@ -8,13 +8,13 @@ inicio
 
            se ((value >= 0) e (value <= 10)) entao
               zeroTo10 <- zeroTo10+1
-           fimSe
+           fimse
            se (value%2=1) entao
               totImpar <- totImpar+1
-           fimSe
-      fimPara
+           fimse
+      fimpara
 
-      limpaTela
-      escrevaL("Total de números entro 0 e 10:",zeroTo10)
-      escrevaL("Total de números ímpares:",totImpar)
-fimAlgoritmo
+      limpatela
+      escreval("Total de números entro 0 e 10:",zeroTo10)
+      escreval("Total de números ímpares:",totImpar)
+fimalgoritmo
