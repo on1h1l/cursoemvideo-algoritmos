@@ -1,4 +1,4 @@
-algoritmo "ex020"
+algoritmo "par_impar"
 var
    n: inteiro
 inicio

@@ -1,4 +1,4 @@
-algoritmo "contador-menu"
+algoritmo "contador_menu"
 var
    menu_option, counter: inteiro
 inicio

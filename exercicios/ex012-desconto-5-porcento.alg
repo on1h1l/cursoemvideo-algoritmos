@@ -1,4 +1,4 @@
-algoritmo "ex012"
+algoritmo "desconto_5_porcento"
 var
    price, discount_price: real
 inicio

@@ -1,4 +1,4 @@
-algoritmo "ex024"
+algoritmo "preco_passagem_por_distancia"
 var
    distance, price: real
 inicio

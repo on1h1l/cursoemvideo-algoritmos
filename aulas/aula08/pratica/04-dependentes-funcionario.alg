@@ -1,4 +1,4 @@
-algoritmo "dependentes-funcionario"
+algoritmo "dependentes_funcionario"
 var
    dependents: inteiro
    salary, new_salary: real

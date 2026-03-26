@@ -1,4 +1,4 @@
-algoritmo "conta-negativos"
+algoritmo "conta_negativos"
 var
    counter, negative_count, number: inteiro
 inicio

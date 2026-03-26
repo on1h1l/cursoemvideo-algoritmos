@@ -1,4 +1,4 @@
-algoritmo "seletor-pessoas"
+algoritmo "seletor_pessoas"
 var
    men_count, women_count, age, hair_color_code: inteiro
    gender, continue_option: caractere

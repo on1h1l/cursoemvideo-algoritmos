@@ -1,4 +1,4 @@
-algoritmo "ex009"
+algoritmo "real_para_dolar"
 var
    amount_brl, amount_usd: real
 inicio

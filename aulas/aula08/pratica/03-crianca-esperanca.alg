@@ -1,4 +1,4 @@
-algoritmo "crianca-esperanca"
+algoritmo "crianca_esperanca"
 var
    menu_option: inteiro
    donation: real

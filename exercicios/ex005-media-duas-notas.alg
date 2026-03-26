@@ -1,4 +1,4 @@
-algoritmo "ex005"
+algoritmo "media_duas_notas"
 var
    n1, n2, avg: real
 inicio

@@ -1,4 +1,4 @@
-algoritmo "ex017"
+algoritmo "multa_por_excesso_velocidade"
 var
    speed, fine: real
 inicio

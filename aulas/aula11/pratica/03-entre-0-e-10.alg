@@ -1,4 +1,4 @@
-algoritmo "entre0e10"
+algoritmo "entre_0_e_10"
 var
    counter, value, zeroTo10, totImpar: inteiro
 inicio

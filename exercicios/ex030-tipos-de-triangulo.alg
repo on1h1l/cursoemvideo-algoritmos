@@ -1,4 +1,4 @@
-algoritmo "ex030"
+algoritmo "tipos_de_triangulo"
 var
    side1, side2, side3: real
 inicio

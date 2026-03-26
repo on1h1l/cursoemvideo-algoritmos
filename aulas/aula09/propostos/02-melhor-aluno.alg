@@ -1,4 +1,4 @@
-algoritmo "melhor-aluno"
+algoritmo "melhor_aluno"
 var
    student_name, top_student: caractere
    grade, highest_grade: real

@@ -1,4 +1,4 @@
-algoritmo "ex013"
+algoritmo "aumento_salarial_15_porcento"
 var
    emp_sal, new_salary: real
 inicio

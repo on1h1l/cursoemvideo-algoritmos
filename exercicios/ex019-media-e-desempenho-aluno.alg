@@ -1,4 +1,4 @@
-algoritmo "ex019"
+algoritmo "media_e_desempenho_aluno"
 var
    grade1, grade2, avg_grade: real
    name: caractere

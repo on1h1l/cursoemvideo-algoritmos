@@ -1,4 +1,4 @@
-algoritmo "detectorPesado"
+algoritmo "detector_pesado"
 var
    name, name_heavier: Caractere
    counter: Inteiro

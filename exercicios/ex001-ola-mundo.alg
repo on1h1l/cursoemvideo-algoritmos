@@ -1,4 +1,4 @@
-algoritmo "ex001"
+algoritmo "ola_mundo"
 var
 
 inicio

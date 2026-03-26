@@ -1,4 +1,4 @@
-algoritmo "ex003"
+algoritmo "nome_e_salario"
 var
    emp_name: caractere
    emp_sal: real

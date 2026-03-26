@@ -1,4 +1,4 @@
-algoritmo "ex029"
+algoritmo "aumento_salarial_por_tempo_empresa"
 var
    salary, new_salary: real
    years: inteiro

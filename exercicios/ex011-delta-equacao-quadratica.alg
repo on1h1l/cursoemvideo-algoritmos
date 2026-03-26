@@ -1,4 +1,4 @@
-algoritmo "ex011"
+algoritmo "delta_equacao_quadratica"
 var
    a, b, c, delta: real
 inicio

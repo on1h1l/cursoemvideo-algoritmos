@@ -1,4 +1,4 @@
-algoritmo "ex006"
+algoritmo "antecessor_e_sucessor"
 var
    n: inteiro
 inicio

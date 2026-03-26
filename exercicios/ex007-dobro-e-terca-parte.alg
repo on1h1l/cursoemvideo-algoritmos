@@ -1,4 +1,4 @@
-algoritmo "ex007"
+algoritmo "dobro_e_terca_parte"
 var
    n, one_third, double: real
 inicio

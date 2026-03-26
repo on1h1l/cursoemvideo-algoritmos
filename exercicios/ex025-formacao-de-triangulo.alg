@@ -1,4 +1,4 @@
-algoritmo "ex025"
+algoritmo "formacao_de_triangulo"
 var
    counter: inteiro
    straight: vetor [1..3] de Real

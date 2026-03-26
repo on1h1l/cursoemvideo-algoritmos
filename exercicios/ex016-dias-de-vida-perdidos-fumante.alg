@@ -1,4 +1,4 @@
-algoritmo "ex016"
+algoritmo "dias_de_vida_perdidos_fumante"
 var
    cigarettes_per_day, years_smoking, total_cigarettes: inteiro
    minutes_lost, life_lost_days: real

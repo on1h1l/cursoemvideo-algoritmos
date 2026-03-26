@@ -1,4 +1,4 @@
-algoritmo "parimpar"
+algoritmo "par_impar"
 var
    n: inteiro
 inicio

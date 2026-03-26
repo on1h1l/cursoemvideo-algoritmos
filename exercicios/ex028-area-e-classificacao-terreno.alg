@@ -1,4 +1,4 @@
-algoritmo "ex028"
+algoritmo "area_e_classificacao_terreno"
 var
    width, height, area: real
 inicio

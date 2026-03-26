@@ -1,4 +1,4 @@
-algoritmo "valoresPares"
+algoritmo "valores_pares"
 var
   counter, value: Inteiro
 inicio

@@ -1,4 +1,4 @@
-algoritmo "ex021"
+algoritmo "ano_bissexto"
 var
    year: inteiro
 inicio

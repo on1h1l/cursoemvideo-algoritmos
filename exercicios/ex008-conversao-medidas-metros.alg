@@ -1,4 +1,4 @@
-algoritmo "ex008"
+algoritmo "conversao_medidas_metros"
 var
    distances: vetor[1..7] de real
    units: vetor[1..7] de caractere

@@ -1,4 +1,4 @@
-algoritmo "ex015"
+algoritmo "salario_por_dias_trabalhados"
 var
    days_worked: inteiro
    daily_pay, monthly_salary: real

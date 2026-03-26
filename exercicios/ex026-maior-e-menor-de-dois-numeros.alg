@@ -1,4 +1,4 @@
-algoritmo "ex026"
+algoritmo "maior_e_menor_de_dois_numeros"
 var
    index, greater, lower: inteiro
    numbers: vetor [1..2] de inteiro

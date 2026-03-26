@@ -1,4 +1,4 @@
-algoritmo "somaProcedimento"
+algoritmo "soma_procedimento"
 var
    x, y: Inteiro
 procedimento soma(a, b: Inteiro)

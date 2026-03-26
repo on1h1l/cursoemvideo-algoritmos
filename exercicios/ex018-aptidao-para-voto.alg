@@ -1,4 +1,4 @@
-algoritmo "ex018"
+algoritmo "aptidao_para_voto"
 var
    current_year, birth_year, age: inteiro
 inicio

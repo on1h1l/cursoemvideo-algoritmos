@@ -1,4 +1,4 @@
-algoritmo "10a0"
+algoritmo "10_a_0"
 var
    counter: inteiro
 inicio

@@ -1,4 +1,4 @@
-algoritmo "ex004"
+algoritmo "soma_dois_inteiros"
 var
    n1, n2, total: inteiro
 inicio

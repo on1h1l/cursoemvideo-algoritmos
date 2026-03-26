@@ -1,4 +1,4 @@
-algoritmo "ex014"
+algoritmo "aluguel_carro_km_e_dias"
 var
    km_driven, rental_days: real
    cost_km, cost_days, total_price: real

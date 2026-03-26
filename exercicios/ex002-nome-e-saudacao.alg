@@ -1,4 +1,4 @@
-algoritmo "ex002"
+algoritmo "nome_e_saudacao"
 var
    name: caractere
 inicio

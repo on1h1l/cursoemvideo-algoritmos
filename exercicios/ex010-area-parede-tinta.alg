@@ -1,4 +1,4 @@
-algoritmo "ex010"
+algoritmo "area_parede_tinta"
 var
    width, height, area: real
 inicio

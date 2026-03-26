@@ -1,4 +1,4 @@
-algoritmo "ex027"
+algoritmo "media_e_situacao_aluno"
 var
    grade1, grade2, avg: real
 inicio

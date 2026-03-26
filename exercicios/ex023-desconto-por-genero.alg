@@ -1,4 +1,4 @@
-algoritmo "ex023"
+algoritmo "desconto_por_genero"
 var
    gender: caractere
    value, new_value: real
