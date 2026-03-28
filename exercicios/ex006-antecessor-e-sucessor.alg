@@ -6,6 +6,6 @@ inicio
       leia(n)
       
       limpatela
-      escreval("O antecessor de",n," é",n-1)
-      escreval("O sucessor de",n," é",n+1)
+      escreval("O antecessor de", n, " é", n - 1)
+      escreval("O sucessor de", n, " é", n + 1)
 fimalgoritmo

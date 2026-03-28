@@ -13,10 +13,10 @@ inicio
                escreva("Digite o valor: R$")
                leia(amount_brl)
                
-               amount_usd <- amount_brl*0.2
+               amount_usd <- amount_brl * 0.2
                
-               escreval("Valor em doláres: U$",amount_usd)
+               escreval("Valor em doláres: U$", amount_usd)
                
-               counter <- counter+1
+               counter <- counter + 1
       fimenquanto
 fimalgoritmo

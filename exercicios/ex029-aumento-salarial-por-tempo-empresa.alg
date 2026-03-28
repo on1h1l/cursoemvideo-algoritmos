@@ -9,18 +9,18 @@ inicio
       leia(years)
       
       se (years < 3) entao
-         new_salary <- salary*1.03
+         new_salary <- salary * 1.03
       senao
            se (years < 10) entao
-              new_salary <- salary*1.125
+              new_salary <- salary * 1.125
            senao
-                new_salary <- salary*1.2
+                new_salary <- salary * 1.2
            fimse
       fimse
       
       limpatela
-      escreval("Anos na empresa:",years)
-      escreval("Aumento de",((new_salary/salary-1)*100),"%")
-      escreval("Salário antigo: R$",salary:5:2)
-      escreval("Novo salário: R$",new_salary:5:2)
+      escreval("Anos na empresa:", years)
+      escreval("Aumento de", ((new_salary / salary - 1) * 100), "%")
+      escreval("Salário antigo: R$", salary:5:2)
+      escreval("Novo salário: R$", new_salary:5:2)
 fimalgoritmo

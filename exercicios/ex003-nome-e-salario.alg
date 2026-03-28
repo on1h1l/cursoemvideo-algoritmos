@@ -9,5 +9,5 @@ inicio
       leia(emp_sal)
       
       limpatela
-      escreval("O funcionário ",emp_name," recebeu R$",emp_sal," esse mês.")
+      escreval("O funcionário ", emp_name, " recebeu R$", emp_sal, " esse mês.")
 fimalgoritmo

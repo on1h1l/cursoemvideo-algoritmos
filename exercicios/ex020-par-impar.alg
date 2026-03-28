@@ -7,8 +7,8 @@ inicio
       
       limpatela
       se (n%2 = 0) entao
-         escreval(n," é par")
+         escreval(n, " é par")
       senao
-           escreval(n," é ímpar")
+           escreval(n, " é ímpar")
       fimse
 fimalgoritmo

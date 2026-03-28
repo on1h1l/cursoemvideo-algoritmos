@@ -24,7 +24,7 @@ inicio
       se (numbers[1] = numbers[2]) entao
          escreval("Os dois números são iguais")
       senao
-           escreval("O",greater,"o número é o maior")
-           escreval("O",lower,"o número é o menor")
+           escreval("O", greater, "o número é o maior")
+           escreval("O", lower, "o número é o menor")
       fimse
 fimalgoritmo

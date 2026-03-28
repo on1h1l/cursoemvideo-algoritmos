@@ -10,8 +10,8 @@ inicio
       
       limpatela
       escreva(a, " ", b, " ")
-      para counter <- counter ate 3 passo -1 faca
-           c <- a+b
+      para counter <- counter ate 3 passo - 1 faca
+           c <- a + b
            escreva(c, " ")
            a <- b
            b <- c

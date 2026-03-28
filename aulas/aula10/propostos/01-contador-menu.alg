@@ -15,14 +15,14 @@ inicio
                     caso 1
                          counter <- 1
                          repita
-                               escreva(counter," ")
-                               counter <- counter+1
+                               escreva(counter, " ")
+                               counter <- counter + 1
                          ate(counter > 10)
                     caso 2
                          counter <- 10
                          repita
-                               escreva(counter," ")
-                               counter <- counter-1
+                               escreva(counter, " ")
+                               counter <- counter - 1
                          ate(counter < 1)
                     caso 3
                          escreval("Saindo...")
@@ -31,5 +31,5 @@ inicio
             
             escreval()
             escreval()
-      ate (menu_option=3)
+      ate (menu_option = 3)
 fimalgoritmo

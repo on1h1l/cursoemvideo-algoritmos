@@ -28,6 +28,6 @@ inicio
                        escreval("Digite um número válido")
       fimescolha
       se (donation > 0) entao
-         escreval("Você doou R$",donation:5:2,". Muito obrigado!")
+         escreval("Você doou R$", donation:5:2, ". Muito obrigado!")
       fimse
 fimalgoritmo

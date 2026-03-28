@@ -6,6 +6,6 @@ inicio
       
       enquanto (counter <= 10) faca
                escreval(counter)
-               counter <- counter+1
+               counter <- counter + 1
       fimenquanto
 fimalgoritmo

@@ -8,9 +8,9 @@ inicio
       leia(number)
       
       limpatela
-      escreval("Tabuada de",number)
+      escreval("Tabuada de", number)
       repita
-            escreval(number," x",multiplier," =",number*multiplier)
-            multiplier <- multiplier+1
+            escreval(number, " x", multiplier, " =", number * multiplier)
+            multiplier <- multiplier + 1
       ate (multiplier > 10)
 fimalgoritmo

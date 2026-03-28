@@ -7,10 +7,10 @@ inicio
       escreva("Nota 2:")
       leia(grade2)
       
-      avg <- (grade1+grade2)/2
+      avg <- (grade1 + grade2) / 2
       
       limpatela
-      escreval("Média: ",avg:3:2)
+      escreval("Média: ", avg:3:2)
       se (avg >= 7) entao
          escreval("Aprovado")
       senao

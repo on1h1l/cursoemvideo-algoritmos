@@ -6,5 +6,5 @@ inicio
       leia(name)
       
       limpatela
-      escreval("Seja bem-vindo ",name,"!")
+      escreval("Seja bem-vindo ", name, "!")
 fimalgoritmo

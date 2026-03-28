@@ -6,16 +6,16 @@ inicio
       counter <- 1
       
       enquanto (counter <= 5) faca
-               escreva("Digite o",counter,"o valor:")
+               escreva("Digite o", counter, "o valor:")
                leia(number)
                se (number > highest_value) entao
                   highest_value <- number
                fimse
-               total <- total+number
-               counter <- counter+1
+               total <- total + number
+               counter <- counter + 1
       fimenquanto
       
       limpatela
-      escreval("Soma dos valores:",total)
-      escreval("Maior número digitado:",highest_value)
+      escreval("Soma dos valores:", total)
+      escreval("Maior número digitado:", highest_value)
 fimalgoritmo

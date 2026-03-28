@@ -10,12 +10,12 @@ inicio
             counter <- number
             repita
                   se (counter > 1) entao
-                     escreva(counter," x")
+                     escreva(counter, " x")
                      senao
                           escreva(counter, " =")
                   fimse
-                  factorial <- factorial*counter
-                  counter <- counter-1
+                  factorial <- factorial * counter
+                  counter <- counter - 1
             ate (counter = 0)
             escreval(factorial)
             escreva("Deseja continuar? [S/N]:")

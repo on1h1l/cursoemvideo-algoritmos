@@ -5,9 +5,9 @@ inicio
       escreva("Salário atual do funcionário: R$")
       leia(emp_sal)
       
-      new_salary <- emp_sal*1.15
+      new_salary <- emp_sal * 1.15
       
       limpatela
-      escreval("Salário antigo: R$",emp_sal)
-      escreval("Novo salário: R$",new_salary)
+      escreval("Salário antigo: R$", emp_sal)
+      escreval("Novo salário: R$", new_salary)
 fimalgoritmo

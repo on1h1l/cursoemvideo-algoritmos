@@ -8,9 +8,9 @@ inicio
    escreva("Anos fumando:")
    leia(years_smoking)
 
-   total_cigarettes <- cigarettes_per_day*(365*years_smoking)
-   minutes_lost <- total_cigarettes*10
-   life_lost_days <- int(minutes_lost/1440)
+   total_cigarettes <- cigarettes_per_day * (365 * years_smoking)
+   minutes_lost <- total_cigarettes * 10
+   life_lost_days <- int(minutes_lost / 1440)
 
    limpatela
    escreval("Total de cigarros:", total_cigarettes)

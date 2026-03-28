@@ -7,13 +7,13 @@ inicio
       escreva("Ano de nascimento:")
       leia(birth_year)
       
-      age <- current_year-birth_year
+      age <- current_year - birth_year
       
       limpatela
-      escreval("Idade:",age)
+      escreval("Idade:", age)
       se (age < 18) entao
-         escreval("Faltam",18-age," anos para se alistar")
+         escreval("Faltam", 18 - age, " anos para se alistar")
       senao
-           escreval("Poderia se alistar há",age-18," anos")
+           escreval("Poderia se alistar há", age - 18, " anos")
       fimse
 fimalgoritmo

@@ -13,9 +13,9 @@ inicio
       escreval(current_value)
       enquanto (current_value <> target_value) faca
                se (current_value < target_value) entao
-                  current_value <- current_value+step
+                  current_value <- current_value + step
                senao
-                    current_value <- current_value-step
+                    current_value <- current_value - step
                fimse
                escreval(current_value)
       fimenquanto

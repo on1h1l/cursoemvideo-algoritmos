@@ -12,9 +12,9 @@ inicio
       escreval(counter)
       enquanto (counter <> end_value) faca
                se (counter > end_value) entao
-                  counter <- counter-1
+                  counter <- counter - 1
                senao
-                    counter <- counter+1
+                    counter <- counter + 1
                fimse
                escreval(counter)
       fimenquanto

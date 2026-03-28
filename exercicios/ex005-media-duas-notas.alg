@@ -7,8 +7,8 @@ inicio
       escreva("Digite a segunda nota:")
       leia(n2)
       
-      avg <- (n1+n2)/2
+      avg <- (n1 + n2) / 2
       
       limpatela
-      escreval("A média entre",n1," e",n2," é igual a",avg)
+      escreval("A média entre", n1, " e", n2, " é igual a", avg)
 fimalgoritmo

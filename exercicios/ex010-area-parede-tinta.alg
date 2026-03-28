@@ -7,10 +7,10 @@ inicio
       escreva("Altura da parede (m):")
       leia(height)
       
-      area <- width*height
+      area <- width * height
       
       limpatela
       escreval("Cada litro de tinta pinta 2 metros quadrados. Sabendo disso:")
-      escreval("Metro Quadrado:",area)
-      escreval("Tinta necessária:",area/2," litros")
+      escreval("Metro Quadrado:", area)
+      escreval("Tinta necessária:", area / 2, " litros")
 fimalgoritmo

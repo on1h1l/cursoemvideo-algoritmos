@@ -10,14 +10,14 @@ inicio
       
       repita
             se (number%divisor = 0) entao
-               divisor_count <- divisor_count+1
+               divisor_count <- divisor_count + 1
             fimse
-            divisor <- divisor+1
+            divisor <- divisor + 1
       ate (divisor > number)
       
       se (divisor_count = 2) entao
-         escreval(number," é primo")
+         escreval(number, " é primo")
       senao
-           escreval(number," não é primo")
+           escreval(number, " não é primo")
       fimse
 fimalgoritmo

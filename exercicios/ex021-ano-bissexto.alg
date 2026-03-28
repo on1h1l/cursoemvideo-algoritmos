@@ -7,12 +7,12 @@ inicio
       
       limpatela
       se ((year%4 = 0) e (year%100 <> 0)) entao
-         escreval(year," é um ano bissexto")
+         escreval(year, " é um ano bissexto")
       senao
            se ((year%4 = 0) e (year%100 = 0) e (year%400 = 0)) entao
-              escreval(year," é um ano bissexto")
+              escreval(year, " é um ano bissexto")
            senao
-                escreval(year," não é um ano bissexto")
+                escreval(year, " não é um ano bissexto")
            fimse
       fimse
 fimalgoritmo

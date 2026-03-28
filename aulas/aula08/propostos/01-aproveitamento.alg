@@ -8,7 +8,7 @@ inicio
       escreva("Segunda nota:")
       leia(grade2)
       
-      avg_grade <- (grade1+grade2)/2
+      avg_grade <- (grade1 + grade2) / 2
       
       limpatela
       se (avg_grade >= 9) entao
@@ -32,6 +32,6 @@ inicio
                 fimse
            fimse
       fimse
-      escreval("Média:",avg_grade)
-      escreval("Aproveitamento: ",letter_grade)
+      escreval("Média:", avg_grade)
+      escreval("Aproveitamento: ", letter_grade)
 fimalgoritmo

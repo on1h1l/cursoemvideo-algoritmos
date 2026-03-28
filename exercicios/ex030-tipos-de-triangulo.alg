@@ -10,7 +10,7 @@ inicio
       leia(side3)
       
       limpatela
-      se ((side1 < side2+side3) e (side2 < side1+side3) e (side3 < side1+side2)) entao
+      se ((side1 < side2 + side3) e (side2 < side1 + side3) e (side3 < side1 + side2)) entao
          escreval("TRIÂNGULO")
       fimse
       se ((side1 = side2) e (side2 = side3)) entao

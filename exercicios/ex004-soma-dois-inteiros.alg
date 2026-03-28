@@ -7,8 +7,8 @@ inicio
       escreva("Digite outro número inteiro:")
       leia(n2)
       
-      total <- n1+n2
+      total <- n1 + n2
       
       limpatela
-      escreval("A soma entre",n1," e",n2," é igual a",total)
+      escreval("A soma entre", n1, " e", n2, " é igual a", total)
 fimalgoritmo

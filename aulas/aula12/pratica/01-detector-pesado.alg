@@ -6,7 +6,7 @@ var
 procedimento top()
 inicio
       limpatela
-      escreval("Maior peso até agora:",heavier,"kg")
+      escreval("Maior peso até agora:", heavier, "kg")
       escreval()
 fimprocedimento
 
@@ -17,9 +17,9 @@ inicio
       top()
       
       para counter <- 1 ate 5 faca
-           escreva("Digite o",counter,"o nome:")
+           escreva("Digite o", counter, "o nome:")
            leia(name)
-           escreva("Digite o",counter,"o peso (kg):")
+           escreva("Digite o", counter, "o peso (kg):")
            leia(weight)
            
            se (weight > heavier) entao
@@ -29,5 +29,5 @@ inicio
            
            top()
       fimpara
-      escreval("Mais pesado: ",name_heavier)
+      escreval("Mais pesado: ", name_heavier)
 fimalgoritmo

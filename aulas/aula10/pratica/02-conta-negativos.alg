@@ -9,11 +9,11 @@ inicio
             escreva("Digite um número:")
             leia(number)
             se (number < 0) entao
-               negative_count <- negative_count+1
+               negative_count <- negative_count + 1
             fimse
-            counter <- counter+1
-      ate (counter>5)
+            counter <- counter + 1
+      ate (counter > 5)
       
       limpatela
-      escreval("Total de negativos:",negative_count)
+      escreval("Total de negativos:", negative_count)
 fimalgoritmo

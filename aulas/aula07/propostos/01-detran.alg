@@ -7,10 +7,10 @@ inicio
       escreva("Ano de nascimento:")
       leia(birth_year)
       
-      age <- current_year-birth_year
+      age <- current_year - birth_year
       
       limpatela
-      escreval("Idade:",age)
+      escreval("Idade:", age)
       se (age >= 18) entao
          escreval("Apto a tirar habilitação")
       senao

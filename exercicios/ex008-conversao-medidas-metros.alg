@@ -18,7 +18,7 @@ inicio
       
       limpatela
       para i de 1 ate 7 faca
-           distances[i] <- meters*10^(i-4)
-           escreval(distances[i],units[i])
+           distances[i] <- meters * 10^(i - 4)
+           escreval(distances[i], units[i])
       fimpara
 fimalgoritmo

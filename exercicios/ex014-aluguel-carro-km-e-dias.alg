@@ -8,9 +8,9 @@ inicio
    escreva("Dias alugados:")
    leia(rental_days)
 
-   cost_km <- km_driven*0.2
-   cost_days <- rental_days*90
-   total_price <- cost_km+cost_days
+   cost_km <- km_driven * 0.2
+   cost_days <- rental_days * 90
+   total_price <- cost_km + cost_days
 
    limpatela
    escreval("Dias alugados:", rental_days)
