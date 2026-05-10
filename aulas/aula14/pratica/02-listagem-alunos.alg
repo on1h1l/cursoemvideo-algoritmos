@@ -4,9 +4,9 @@ var
    name: vetor[1..4] de caractere
    grade_1: vetor[1..4] de real
    grade_2: vetor[1..4] de real
-   average: vetor[1..4] de real
-   total_average, class_average: real
-   above_average: inteiro
+   avg: vetor[1..4] de real
+   total_avg, class_avg: real
+   above_avg: inteiro
 inicio
       para i <- 1 ate 4 faca
            escreva("Aluno:")
@@ -16,22 +16,22 @@ inicio
            escreva("Nota 2:")
            leia(grade_2[i])
            
-           average[i] <- (grade_1[i] + grade_2[i]) / 2
-           total_average <- total_average + average[i]
+           avg[i] <- (grade_1[i] + grade_2[i]) / 2
+           total_avg <- total_avg + avg[i]
       fimpara
       
-      class_average <- total_average / 4
+      class_avg <- total_avg / 4
       
       limpatela
       
       para i <- 1 ate 4 faca
-           escreval("Aluno: ", name[i]:20, "M�dia:", average[i]:4:1)
+           escreval("Aluno: ", name[i]:20, "MÃ©dia:", avg[i]:4:1)
            escreval()
            
-           se (average[i] > class_average) entao
-              above_average <- above_average + 1
+           se (avg[i] > class_avg) entao
+              above_avg <- above_avg + 1
            fimse
       fimpara
       
-      escreval("Total de alunos acima da media:", above_average)
+      escreval("Total de alunos acima da media:", above_avg)
 fimalgoritmo

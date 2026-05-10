@@ -5,11 +5,11 @@ var
    counter, total_students: inteiro
 inicio
       counter <- 1
-      highest_grade <-  - 1
+      highest_grade <- -1
 
       escreva("Quantidade de estudantes:")
       leia(total_students)
-      
+
       limpatela
       enquanto (counter <= total_students) faca
                escreva("Qual o nome do", counter, "o aluno?:")

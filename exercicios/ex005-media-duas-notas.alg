@@ -1,14 +1,14 @@
 algoritmo "media_duas_notas"
 var
-   n1, n2, avg: real
+   num_1, num_2, avg: real
 inicio
       escreva("Digite a primeira nota:")
-      leia(n1)
+      leia(num_1)
       escreva("Digite a segunda nota:")
-      leia(n2)
-      
-      avg <- (n1 + n2) / 2
-      
+      leia(num_2)
+
+      avg <- (num_1 + num_2) / 2
+
       limpatela
-      escreval("A média entre", n1, " e", n2, " é igual a", avg)
+      escreval("A media entre", num_1, " e", num_2, " e igual a", avg)
 fimalgoritmo

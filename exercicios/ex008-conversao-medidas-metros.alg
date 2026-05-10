@@ -15,10 +15,10 @@ inicio
       units[5] <- "dm"
       units[6] <- "cm"
       units[7] <- "mm"
-      
+
       limpatela
       para i de 1 ate 7 faca
-           distances[i] <- meters * 10^(i - 4)
+           distances[i] <- meters * 10 ^ (i - 4)
            escreval(distances[i], units[i])
       fimpara
 fimalgoritmo

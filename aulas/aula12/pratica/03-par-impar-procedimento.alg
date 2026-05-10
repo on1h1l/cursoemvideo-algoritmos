@@ -1,18 +1,18 @@
-algoritmo "par-impar-procedimento"
+algoritmo "par_impar_procedimento"
 var
-   number: inteiro
+   num: inteiro
 procedimento parimpar()
 inicio
-      se (number % 2 = 0) entao
-         escrevaL(number," é um número par")
+      se (num % 2 = 0) entao
+         escreval(num, " e um numero par")
       senao
-           escrevaL(number," é um número ímpar")
+           escreval(num, " e um numero impar")
       fimse
 fimprocedimento
 inicio
-      escreva("Digite um número:")
-      leia(number)
-      
+      escreva("Digite um numero:")
+      leia(num)
+
       limpatela
       parimpar()
 fimalgoritmo

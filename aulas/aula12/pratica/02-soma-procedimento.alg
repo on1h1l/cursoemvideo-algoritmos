@@ -1,6 +1,6 @@
 algoritmo "soma_procedimento"
 var
-   x, y: inteiro
+   num_1, num_2: inteiro
 procedimento soma(a, b: inteiro)
 inicio
       escreval("Valor de A:", a)
@@ -8,7 +8,8 @@ inicio
       escreval("Soma entre A e B:", a + b)
 fimprocedimento
 inicio
-      x <- 5
-      y <- 3
-      soma(x, y)
+      num_1 <- 5
+      num_2 <- 3
+
+      soma(num_1, num_2)
 fimalgoritmo

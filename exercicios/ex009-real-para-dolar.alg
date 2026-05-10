@@ -4,9 +4,9 @@ var
 inicio
       escreva("Digite um valor em reais: R$")
       leia(amount_brl)
-      
+
       amount_usd <- amount_brl * 0.20
-      
+
       limpatela
       escreval("R$", amount_brl, " -> U$", amount_usd)
 fimalgoritmo

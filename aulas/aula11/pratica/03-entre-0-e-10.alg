@@ -1,20 +1,20 @@
 algoritmo "entre_0_e_10"
 var
-   counter, value, zeroTo10, totImpar: inteiro
+   counter, num, in_range, odd_count: inteiro
 inicio
       para counter <- 1 ate 6 faca
            escreva("Digite um valor:")
-           leia(value)
+           leia(num)
 
-           se ((value >= 0) e (value <= 10)) entao
-              zeroTo10 <- zeroTo10 + 1
+           se ((num >= 0) e (num <= 10)) entao
+              in_range <- in_range + 1
            fimse
-           se (value%2 = 1) entao
-              totImpar <- totImpar + 1
+           se (num % 2 = 1) entao
+              odd_count <- odd_count + 1
            fimse
       fimpara
 
       limpatela
-      escreval("Total de números entro 0 e 10:", zeroTo10)
-      escreval("Total de números ímpares:", totImpar)
+      escreval("Total de numeros entre 0 e 10:", in_range)
+      escreval("Total de numeros impares:", odd_count)
 fimalgoritmo

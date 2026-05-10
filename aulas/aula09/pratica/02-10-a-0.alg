@@ -3,7 +3,7 @@ var
    counter: inteiro
 inicio
       counter <- 10
-      
+
       enquanto (counter >= 0) faca
                escreval(counter)
                counter <- counter - 2

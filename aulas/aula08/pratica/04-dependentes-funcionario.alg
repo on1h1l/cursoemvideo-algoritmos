@@ -3,11 +3,11 @@ var
    dependents: inteiro
    salary, new_salary: real
 inicio
-      escreva("Salário do funcionário:")
+      escreva("Salario do funcionario:")
       leia(salary)
-      escreva("Número de dependentes:")
+      escreva("Numero de dependentes:")
       leia(dependents)
-      
+
       limpatela
       se (dependents < 1) entao
          new_salary <- salary * 1.05
@@ -22,5 +22,6 @@ inicio
                 fimse
            fimse
       fimse
-      escreval("Novo salário: R$", new_salary:5:2)
+
+      escreval("Novo salario: R$", new_salary:5:2)
 fimalgoritmo

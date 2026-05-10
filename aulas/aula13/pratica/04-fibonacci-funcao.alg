@@ -1,9 +1,9 @@
-algoritmo "fibonacci-procedimento"
+algoritmo "fibonacci_funcao"
 var
    a, b, c, counter: inteiro
 funcao fibonacci(): inteiro
 inicio
-      c <- a+b
+      c <- a + b
       a <- b
       b <- c
       retorne c
@@ -15,6 +15,6 @@ inicio
       escreva(a, " ", b, " ")
       para counter <- 3 ate 10 faca
            c <- fibonacci()
-           escreva(c," ")
+           escreva(c, " ")
       fimpara
 fimalgoritmo

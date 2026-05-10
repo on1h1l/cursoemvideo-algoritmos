@@ -1,17 +1,18 @@
 algoritmo "contador"
 var
    option: caractere
-   number, total: inteiro
+   num, total: inteiro
 inicio
       repita
-            escreva("Digite um número:")
-            leia(number)
+            escreva("Digite um numero:")
+            leia(num)
+
+            total <- total + num
+
             escreva("Deseja continuar? [S/N]:")
             leia(option)
-            
-            total <- total + number
       ate ((option = "N") ou (option = "n"))
-      
+
       limpatela
-      escreval("A soma dos valores é", total)
+      escreval("A soma dos valores e", total)
 fimalgoritmo

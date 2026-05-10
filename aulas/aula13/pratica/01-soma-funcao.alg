@@ -1,20 +1,20 @@
 algoritmo "soma_funcao"
 var
-   n1, n2, total: inteiro
+   num_1, num_2, total: inteiro
 funcao sum(a, b: inteiro): inteiro
 inicio
-      retorne a+b
+      retorne a + b
 fimfuncao
 inicio
-      escreva("Digite um número:")
-      leia(n1)
-      escreva("Digite outro número:")
-      leia(n2)
-      
-      total <- sum(n1, n2)
-      
-      limpaTela
-      escrevaL("Valor A:",n1)
-      escrevaL("Valor B:",n2)
-      escrevaL("Total:",total)
+      escreva("Digite um numero:")
+      leia(num_1)
+      escreva("Digite outro numero:")
+      leia(num_2)
+
+      total <- sum(num_1, num_2)
+
+      limpatela
+      escreval("Valor A:", num_1)
+      escreval("Valor B:", num_2)
+      escreval("Total:", total)
 fimalgoritmo

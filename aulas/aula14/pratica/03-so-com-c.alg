@@ -5,7 +5,6 @@ var
    tot_only_c: inteiro
    i: inteiro
 inicio
-      tot_only_c <- 0
       
       para i <- 1 ate 10 faca
            escreva("Digite seu nome:")
@@ -19,10 +18,10 @@ inicio
       
       limpatela
       
-      escreval("Nomes que come�am com C:")
+      escreval("Nomes que comeÃ§am com C:")
       para i <- 1 ate tot_only_c faca
            escreval(only_c[i])
       fimpara
       escreval()
-      escreval("Total de nomes que come�am com C:",tot_only_c)
+      escreval("Total de nomes que comeÃ§am com C:",tot_only_c)
 fimalgoritmo

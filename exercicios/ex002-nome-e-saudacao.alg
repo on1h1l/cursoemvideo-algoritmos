@@ -4,7 +4,7 @@ var
 inicio
       escreva("Digite seu nome:")
       leia(name)
-      
+
       limpatela
       escreval("Seja bem-vindo ", name, "!")
 fimalgoritmo

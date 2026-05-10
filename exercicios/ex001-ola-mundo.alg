@@ -2,5 +2,5 @@ algoritmo "ola_mundo"
 var
 
 inicio
-      escreval("Olá Mundo!")
+      escreval("Ola Mundo!")
 fimalgoritmo

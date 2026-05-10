@@ -1,13 +1,13 @@
 algoritmo "fatorial"
 var
    option: caractere
-   number, counter, factorial: real
+   num, counter, factorial: real
 inicio
       repita
             factorial <- 1
             escreva("Digite um valor:")
-            leia(number)
-            counter <- number
+            leia(num)
+            counter <- num
             repita
                   se (counter > 1) entao
                      escreva(counter, " x")

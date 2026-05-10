@@ -8,9 +8,9 @@ inicio
       leia(b)
       escreva("Digite o valor de C:")
       leia(c)
-      
-      delta <- (b)^2 - 4 * a * c
-      
+
+      delta <- (b) ^ 2 - 4 * a * c
+
       limpatela
       escreval("A:", a, "  B:", b, "  C:", c)
       escreval("Valor de Delta:", delta)

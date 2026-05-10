@@ -3,12 +3,12 @@ var
    target_value, step, current_value: inteiro
 inicio
       current_value <- 1
-      
-      escreva("Quer contar até quanto?")
+
+      escreva("Quer contar ate quanto?")
       leia(target_value)
       escreva("Qual o valor do salto?")
       leia(step)
-      
+
       limpatela
       escreval(current_value)
       enquanto (current_value <> target_value) faca

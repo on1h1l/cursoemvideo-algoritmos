@@ -3,11 +3,9 @@ var
    men_count, women_count, age, hair_color_code: inteiro
    gender, continue_option: caractere
 inicio
-      men_count <- 0
-      women_count <- 0
-      
+
       repita
-            escreva("Gênero [H/M]:")
+            escreva("Genero [H/M]:")
             leia(gender)
             escreva("Idade:")
             leia(age)
@@ -27,7 +25,7 @@ inicio
             
             limpatela
       ate ((continue_option = "N") ou (continue_option = "n"))
-      
+
       escreval("Total de homens com mais de 18 e cabelos castanhos:", men_count)
       escreval("Total de mulheres entre 25 e 30 e cabelos loiros:", women_count)
 fimalgoritmo

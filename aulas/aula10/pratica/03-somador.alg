@@ -1,12 +1,12 @@
 algoritmo "somador"
 var
    option: caractere
-   number, total: real
+   num, total: real
 inicio
       repita
             escreva("Digite um valor:")
-            leia(number)
-            total <- total + number
+            leia(num)
+            total <- total + num
             escreva("Deseja continuar? [S/N]:")
             leia(option)
       ate ((option = "N") ou (option = "n"))

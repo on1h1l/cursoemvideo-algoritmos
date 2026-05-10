@@ -1,19 +1,19 @@
 algoritmo "par_impar_funcao"
 var
-   number: inteiro
+   num: inteiro
 funcao parimpar(): caractere
 inicio
-      se (number%2=0) entao
+      se (num % 2 = 0) entao
          retorne "Par"
       senao
-           retorne "Ímpar"
+           retorne "Impar"
       fimse
 fimfuncao
 inicio
-      escreva("Digite um número:")
-      leia(number)
-      
-      limpaTela
-      escrevaL("Valor:",number)
-      escrevaL("Par/Ímpar:",parimpar())
+      escreva("Digite um numero:")
+      leia(num)
+
+      limpatela
+      escreval("Valor:", num)
+      escreval("Par/Impar:", parimpar())
 fimalgoritmo

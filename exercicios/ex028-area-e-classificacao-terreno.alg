@@ -6,11 +6,11 @@ inicio
       leia(width)
       escreva("Digite a altura (m):")
       leia(height)
-      
+
       area <- width * height
-      
+
       limpatela
-      escreval("Metros quadrados:", area, "m")
+      escreval("Metros quadrados:", area, "m2")
       se (area < 100) entao
          escreval("TERRENO POPULAR")
       senao

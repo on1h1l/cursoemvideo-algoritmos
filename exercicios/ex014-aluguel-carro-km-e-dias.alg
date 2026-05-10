@@ -3,7 +3,7 @@ var
    km_driven, rental_days: real
    cost_km, cost_days, total_price: real
 inicio
-   escreva("Quilômetros percorridos:")
+   escreva("Quilometros percorridos:")
    leia(km_driven)
    escreva("Dias alugados:")
    leia(rental_days)
@@ -14,9 +14,9 @@ inicio
 
    limpatela
    escreval("Dias alugados:", rental_days)
-   escreval("Quilômetros percorridos:", km_driven)
+   escreval("Quilometros percorridos:", km_driven)
    escreval("Total dos dias:", cost_days)
-   escreval("Total dos quilômetros:", cost_km)
+   escreval("Total dos quilometros:", cost_km)
    escreval("Valor total:", total_price)
 fimalgoritmo
 

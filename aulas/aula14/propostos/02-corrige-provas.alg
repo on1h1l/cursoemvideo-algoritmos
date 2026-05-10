@@ -4,7 +4,7 @@ var
    answer_key: vetor[1..5] de caractere
    answer: vetor[1..5] de caractere
    grade: vetor[1..3] de real
-   class_average: real
+   class_avg: real
    i, c: inteiro
 inicio
       escreval("Cadastre o gabarito:")
@@ -32,7 +32,7 @@ inicio
                 fimse
            fimpara
            
-           class_average <- class_average + grade[i] / 3
+           class_avg <- class_avg + grade[i] / 3
            
            limpatela
       fimpara
@@ -42,5 +42,5 @@ inicio
       fimpara
       
       escreval()
-      escreval("Media da turma:",class_average)
+      escreval("Media da turma:",class_avg)
 fimalgoritmo

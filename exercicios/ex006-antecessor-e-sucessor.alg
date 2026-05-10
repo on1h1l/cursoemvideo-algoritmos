@@ -1,11 +1,11 @@
 algoritmo "antecessor_e_sucessor"
 var
-   n: inteiro
+   num: inteiro
 inicio
-      escreva("Digite um número inteiro:")
-      leia(n)
-      
+      escreva("Digite um numero inteiro:")
+      leia(num)
+
       limpatela
-      escreval("O antecessor de", n, " é", n - 1)
-      escreval("O sucessor de", n, " é", n + 1)
+      escreval("O antecessor de", num, " e", num - 1)
+      escreval("O sucessor de", num, " e", num + 1)
 fimalgoritmo

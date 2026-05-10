@@ -5,7 +5,7 @@ var
 inicio
       para line <- 1 ate 3 faca
            para column <- 1 ate 3 faca
-                escreva("Valor da posição [",line,",", column, " ]")
+                escreva("Valor da posição [",line,",", column, " ]:")
                 leia(matrix[line, column])
 
                 limpatela

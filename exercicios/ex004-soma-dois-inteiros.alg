@@ -1,14 +1,14 @@
 algoritmo "soma_dois_inteiros"
 var
-   n1, n2, total: inteiro
+   num_1, num_2, total: inteiro
 inicio
-      escreva("Digite um número inteiro:")
-      leia(n1)
-      escreva("Digite outro número inteiro:")
-      leia(n2)
-      
-      total <- n1 + n2
-      
+      escreva("Digite um numero inteiro:")
+      leia(num_1)
+      escreva("Digite outro numero inteiro:")
+      leia(num_2)
+
+      total <- num_1 + num_2
+
       limpatela
-      escreval("A soma entre", n1, " e", n2, " é igual a", total)
+      escreval("A soma entre", num_1, " e", num_2, " e igual a", total)
 fimalgoritmo

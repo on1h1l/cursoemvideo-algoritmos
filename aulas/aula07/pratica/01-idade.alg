@@ -6,14 +6,14 @@ inicio
       leia(current_year)
       escreva("Ano de nascimento:")
       leia(birth_year)
-      
+
       age <- current_year - birth_year
-      
+
       limpatela
       escreval("Idade:", age)
       se (age >= 18) entao
          escreval("Atingiu a maioridade")
       senao
-           escreval("Não atingiu a maioridade")
+           escreval("Nao atingiu a maioridade")
       fimse
 fimalgoritmo

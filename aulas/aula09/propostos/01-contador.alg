@@ -2,11 +2,11 @@ algoritmo "contador"
 var
    start_value, end_value, counter: inteiro
 inicio
-      escreva("Início da contagem:")
+      escreva("Inicio da contagem:")
       leia(start_value)
       escreva("Fim da contagem:")
       leia(end_value)
-      
+
       counter <- start_value
       
       escreval(counter)

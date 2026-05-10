@@ -1,30 +1,30 @@
 algoritmo "maior_e_menor_de_dois_numeros"
 var
-   index, greater, lower: inteiro
+   index, greater_idx, lower_idx: inteiro
    numbers: vetor [1..2] de inteiro
 inicio
-      escreva("Digite um número:")
+      escreva("Digite um numero:")
       leia(numbers[1])
-      escreva("Digite outro número:")
+      escreva("Digite outro numero:")
       leia(numbers[2])
 
-      greater <- 1
-      lower <- 1
+      greater_idx <- 1
+      lower_idx <- 1
 
       para index de 1 ate 2 faca
-           se (numbers[index] > numbers[greater]) entao
-              greater <- index
+           se (numbers[index] > numbers[greater_idx]) entao
+              greater_idx <- index
            fimse
-           se (numbers[index] < numbers[lower]) entao
-              lower <- index
+           se (numbers[index] < numbers[lower_idx]) entao
+              lower_idx <- index
            fimse
       fimpara
-      
+
       escreval()
       se (numbers[1] = numbers[2]) entao
-         escreval("Os dois números são iguais")
+         escreval("Os dois numeros sao iguais")
       senao
-           escreval("O", greater, "o número é o maior")
-           escreval("O", lower, "o número é o menor")
+           escreval("O", greater_idx, "o numero e o maior")
+           escreval("O", lower_idx, "o numero e o menor")
       fimse
 fimalgoritmo

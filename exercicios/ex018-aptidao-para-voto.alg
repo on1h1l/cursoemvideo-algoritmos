@@ -6,13 +6,13 @@ inicio
       leia(current_year)
       escreva("Ano de nascimento:")
       leia(birth_year)
-      
+
       age <- current_year - birth_year
-      
+
       limpatela
       escreval("Idade:", age)
       se (age < 16) entao
-         escreval("Não pode votar")
+         escreval("Nao pode votar")
       senao
            escreval("Pode votar")
       fimse

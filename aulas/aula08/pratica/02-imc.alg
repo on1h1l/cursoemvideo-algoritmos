@@ -6,9 +6,9 @@ inicio
       leia(weight)
       escreva("Digite sua altura (m):")
       leia(height)
-      
-      bmi <- weight / (height^2)
-      
+
+      bmi <- weight / (height ^ 2)
+
       limpatela
       escreval("IMC:", bmi:5:2)
       se (bmi >= 40) entao

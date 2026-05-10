@@ -1,14 +1,14 @@
 algoritmo "par_impar"
 var
-   n: inteiro
+   num: inteiro
 inicio
-      escreva("Digite um número:")
-      leia(n)
-      
+      escreva("Digite um numero:")
+      leia(num)
+
       limpatela
-      se (n%2 = 0) entao
-         escreval(n, " é par")
+      se (num % 2 = 0) entao
+         escreval(num, " e par")
       senao
-           escreval(n, " é ímpar")
+           escreval(num, " e impar")
       fimse
 fimalgoritmo

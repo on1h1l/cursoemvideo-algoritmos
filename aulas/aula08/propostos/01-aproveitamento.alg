@@ -1,15 +1,15 @@
 algoritmo "aproveitamento"
 var
-   grade1, grade2, avg_grade: real
+   grade_1, grade_2, avg_grade: real
    letter_grade: caractere
 inicio
       escreva("Primeira nota:")
-      leia(grade1)
+      leia(grade_1)
       escreva("Segunda nota:")
-      leia(grade2)
-      
-      avg_grade <- (grade1 + grade2) / 2
-      
+      leia(grade_2)
+
+      avg_grade <- (grade_1 + grade_2) / 2
+
       limpatela
       se (avg_grade >= 9) entao
          letter_grade <- "A"
@@ -32,6 +32,6 @@ inicio
                 fimse
            fimse
       fimse
-      escreval("Média:", avg_grade)
+      escreval("Media:", avg_grade)
       escreval("Aproveitamento: ", letter_grade)
 fimalgoritmo

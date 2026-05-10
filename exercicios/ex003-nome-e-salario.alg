@@ -1,13 +1,13 @@
 algoritmo "nome_e_salario"
 var
-   emp_name: caractere
-   emp_sal: real
+   name: caractere
+   salary: real
 inicio
-      escreva("Nome do funcionário:")
-      leia(emp_name)
-      escreva("Salário do funcionário: R$")
-      leia(emp_sal)
-      
+      escreva("Nome do funcionario:")
+      leia(name)
+      escreva("Salario do funcionario: R$")
+      leia(salary)
+
       limpatela
-      escreval("O funcionário ", emp_name, " recebeu R$", emp_sal, " esse mês.")
+      escreval("O funcionario ", name, " recebeu R$", salary, " esse mes.")
 fimalgoritmo
